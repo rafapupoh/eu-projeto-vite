@@ -19,3 +19,4 @@ O projeto está organizado em pastas por componente dentro de `src/components`, 
 ## Observações
 
 Este projeto ainda não possui backend ou persistência de dados. Todas as funcionalidades são estáticas.
+# projeto-vite
