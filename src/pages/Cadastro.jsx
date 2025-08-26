@@ -1,21 +1,17 @@
 import { useState } from 'react';
-import SerieForm from '../components/SerieForm.jsx';
-import SerieList from '../components/SerieList.jsx';
+import SerieForm from '../components/SerieForm/SerieForm';
 
-function Cadastro() {
+export default function Cadastro() {
   const [series, setSeries] = useState([]);
 
-  const adicionarSerie = (novaSerie) => {
+  function handleAddSerie(novaSerie) {
     setSeries([...series, novaSerie]);
-  };
+  }
 
   return (
     <div>
-      <h2>Cadastro de Séries</h2>
-      <SerieForm onAddSerie={adicionarSerie} />
-      <SerieList series={series} />
+      <h2>Cadastro de Série</h2>
+      <SerieForm onAddSerie={handleAddSerie} />
     </div>
   );
 }
-
-export default Cadastro;

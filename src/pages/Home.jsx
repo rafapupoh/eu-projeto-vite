@@ -1,5 +1,3 @@
-function Home() {
-  return <h1>Bem-vinda ao Catálogo de Séries!</h1>;
+export default function Home() {
+  return <h1>Bem-vinda ao catálogo de séries!</h1>;
 }
-
-export default Home;

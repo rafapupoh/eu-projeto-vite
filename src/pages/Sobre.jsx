@@ -1,10 +1,3 @@
-function Sobre() {
-  return (
-    <div>
-      <h2>Sobre o Projeto</h2>
-      <p>Este projeto foi desenvolvido para cadastrar e listar séries assistidas.</p>
-    </div>
-  );
+export default function Sobre() {
+  return <p>Este projeto foi desenvolvido para a Fase 1 do curso de Frontend.</p>;
 }
-
-export default Sobre;
